@@ -1,6 +1,6 @@
 {
   "name": "sploot",
-  "version": "1.0.0",
+  "version": "1.0.0-beta.1",
   "description": "Background linear-gradient function",
   "main": "dist/index.js",
   "scripts": {
