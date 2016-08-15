@@ -1,6 +1,6 @@
 {
   "name": "sploot",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0",
   "description": "CSS linear-gradient function for creating split background",
   "main": "dist/index.js",
   "scripts": {
