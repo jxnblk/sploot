@@ -10,7 +10,7 @@ const Sploot = ({
   ...props
 }) => {
   const sx = {
-    margin: 16,
+    margin: 32,
     padding: 32,
     backgroundImage: sploot({
       start: color,
@@ -29,6 +29,10 @@ const App = () => {
     <div>
       <Sploot color='cyan'>
         <h1>Sploot</h1>
+        <p>CSS linear-gradient function for creating split backgrounds</p>
+        <a href='https://github.com/jxnblk/sploot'>GitHub</a>
+        {' '}
+        <a href='https://npmjs.com/package/sploot'>npm</a>
       </Sploot>
       <Sploot color='magenta' angle={45}>
         <h2>Magenta 45deg</h2>
@@ -41,6 +45,9 @@ const App = () => {
       </Sploot>
       <Sploot color='cyan' angle={-90} position='25%'>
         <h2>Cyan -90deg 25%</h2>
+      </Sploot>
+      <Sploot color='yellow' angle={90} position='75%'>
+        <a href='http://jxnblk.com'>Made by Jxnblk</a>
       </Sploot>
     </div>
   )
